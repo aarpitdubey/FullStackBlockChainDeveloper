@@ -9,7 +9,9 @@
 // g. “Student has failed” if the marks are between 0 and 40.
 // h. Else output “Invalid marks”. 
 
-
+// ------------------------------------------------------------------------------------
+// PLEASE USE indx.html for passing the input to th written program through the browser
+// ------------------------------------------------------------------------------------
 // Steps 
 // 1. Taking input through window prompt (open index.html for this)
 // 2. Then putting condition in if-else block because here I consider marks should be less than equal to 100 only
