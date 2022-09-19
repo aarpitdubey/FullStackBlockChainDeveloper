@@ -29,6 +29,8 @@ let prime = (min, max) => {
         
     }
 }
+
+// function callings
 prime(1, 100);
 
 

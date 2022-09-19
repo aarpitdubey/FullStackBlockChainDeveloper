@@ -22,7 +22,7 @@
 
 let marks = prompt('Enter the marks : ');
 
-if (marks <= 100) {
+if (marks <= 100 && marks > 0) {
     
     switch (marks = Math.trunc(marks/=10)) { //put it inside the switch case condional paranthesis using a comma (,),  alert(`case no. ${marks}`)
         
@@ -52,12 +52,28 @@ if (marks <= 100) {
     
         case 4:
             alert("E grade");
+        break;
+
+        case 3:
+            alert("Student has failed");   
+        break;
+
+        case 2:
+            alert("Student has failed");   
+        break;
+
+        case 1:
+            alert("Student has failed");   
+        break;
+
+        case 0:
             alert("Student has failed");   
         break;
         
         default:
             alert("Invalid marks");
         break;
+
     }
 } 
 else {
